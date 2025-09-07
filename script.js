@@ -8,6 +8,3 @@ function toggleMenu(){
 
 
 // Attach event listeners to "Learn More" buttons
-document.querySelectorAll('.project-btn').forEach((btn, idx) => {
-    btn.onclick = () => openProjectDetail(idx);
-});
